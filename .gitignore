@@ -159,10 +159,3 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-startenv.bat
-flask_session/.
-test/
-run_shared_mem_example.bat
-logs/
-app/__pycache__/
-robotcontrol/__pycache__/
