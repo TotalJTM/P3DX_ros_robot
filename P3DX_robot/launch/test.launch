@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="robot" pkg="P3DX_robot" type="src/p3dx_robot_controller.py" respawn="true" output="screen">
+        <param name="freqs/motor_mixer" type="str" value="20" />
+        <param name="buttons/timer_freq" type="int" value="20" />
+        <param name="freqs/update_motor" type="int" value="10" />
+        <param name="freqs/update_encoder" type="int" value="25" />
+        <param name="freqs/update_button" type="int" value="10" />
+    </node>
+    <node name="serialcomm" pkg="P3DX_robot" type="src/serial_comm_ros.py" respawn="true" output="screen">
+        <param name="port" type="str" value="/dev/ttyACM0" />
+        <param name="baud" type="int" value="115200" />
+        <param name="pub_freq" type="int" value="100" />
+    </node>
+</launch>
