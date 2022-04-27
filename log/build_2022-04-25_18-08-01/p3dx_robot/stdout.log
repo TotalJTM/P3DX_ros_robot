@@ -1,0 +1,47 @@
+running egg_info
+creating build/p3dx_robot/p3dx_robot.egg-info
+writing build/p3dx_robot/p3dx_robot.egg-info/PKG-INFO
+writing dependency_links to build/p3dx_robot/p3dx_robot.egg-info/dependency_links.txt
+writing entry points to build/p3dx_robot/p3dx_robot.egg-info/entry_points.txt
+writing requirements to build/p3dx_robot/p3dx_robot.egg-info/requires.txt
+writing top-level names to build/p3dx_robot/p3dx_robot.egg-info/top_level.txt
+writing manifest file 'build/p3dx_robot/p3dx_robot.egg-info/SOURCES.txt'
+reading manifest file 'build/p3dx_robot/p3dx_robot.egg-info/SOURCES.txt'
+writing manifest file 'build/p3dx_robot/p3dx_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build
+creating /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib
+creating /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+copying p3dx_robot/p3dx_peripherals.py -> /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+copying p3dx_robot/p3dx_robot_controller.py -> /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+copying p3dx_robot/__init__.py -> /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+copying p3dx_robot/serial_comm.py -> /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+copying p3dx_robot/serial_comm_ros.py -> /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot
+running install
+running install_lib
+creating /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+copying /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot/p3dx_peripherals.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+copying /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot/p3dx_robot_controller.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+copying /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot/__init__.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+copying /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot/serial_comm.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+copying /root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/build/lib/p3dx_robot/serial_comm_ros.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot
+byte-compiling /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/p3dx_peripherals.py to p3dx_peripherals.cpython-38.pyc
+byte-compiling /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/p3dx_robot_controller.py to p3dx_robot_controller.cpython-38.pyc
+byte-compiling /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/serial_comm.py to serial_comm.cpython-38.pyc
+byte-compiling /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/serial_comm_ros.py to serial_comm_ros.cpython-38.pyc
+running install_data
+creating /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/ament_index
+creating /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/ament_index/resource_index
+creating /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/ament_index/resource_index/packages
+copying resource/p3dx_robot -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/ament_index/resource_index/packages
+copying package.xml -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/p3dx_robot
+creating /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/p3dx_robot/launch
+copying launch/minimal.launch.py -> /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/share/p3dx_robot/launch
+running install_egg_info
+Copying build/p3dx_robot/p3dx_robot.egg-info to /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robotcontrol script to /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/p3dx_robot
+Installing robotserial script to /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/p3dx_robot
+writing list of installed files to '/root/rosplayground/ros2cws/src/p3dx_robot/build/p3dx_robot/install.log'

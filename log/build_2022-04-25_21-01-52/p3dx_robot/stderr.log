@@ -1,0 +1,5 @@
+  File "/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/serial_comm_ros.py", line 46
+    self.n.get_logger().info("Serial port connected)
+                                                   ^
+SyntaxError: EOL while scanning string literal
+

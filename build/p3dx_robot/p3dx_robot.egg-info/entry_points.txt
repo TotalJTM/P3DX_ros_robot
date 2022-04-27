@@ -1,0 +1,4 @@
+[console_scripts]
+control = p3dx_robot.p3dx_robot_controller:main
+robotserial = p3dx_robot.serial_comm_ros:main
+
