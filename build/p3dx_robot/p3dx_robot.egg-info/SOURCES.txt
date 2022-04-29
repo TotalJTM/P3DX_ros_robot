@@ -10,6 +10,8 @@ build/p3dx_robot/p3dx_robot.egg-info/top_level.txt
 build/p3dx_robot/p3dx_robot.egg-info/zip-safe
 launch/minimal.launch.py
 p3dx_robot/__init__.py
+p3dx_robot/network.py
+p3dx_robot/network_comm_ros.py
 p3dx_robot/p3dx_peripherals.py
 p3dx_robot/p3dx_robot_controller.py
 p3dx_robot/serial_comm.py

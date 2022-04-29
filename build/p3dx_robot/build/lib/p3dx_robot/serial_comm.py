@@ -35,10 +35,12 @@ class Serial_Comm:
 			else:
 				self.sp = Serial(port=f'{prefix}{port}', baudrate=baud, write_timeout=0.0, timeout=0.00, **addtl_pyserial_kwargs)
 			# print(f'serial type: {type(self.sp)}')
+
 			mes = ''
 			while mes == '':
 				mes = self.readline()
 			print(mes)
+			
 			return True
 		except serialutil.SerialException:
 			if addr:

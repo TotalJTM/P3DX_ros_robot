@@ -172,8 +172,8 @@ class P3_DX_robot:
 
 	
 	def callback_steering_mixer(self):
-		self.left_motor_speed = constrain((self.cmd_throttle - self.cmd_rotation)*self.steering_mixgain, -100, 100)
-		self.right_motor_speed = constrain((self.cmd_throttle + self.cmd_rotation)*self.steering_mixgain, -100, 100)
+		self.left_motor_speed = constrain((self.cmd_throttle + self.cmd_rotation)*self.steering_mixgain, -100, 100)
+		self.right_motor_speed = constrain((self.cmd_throttle - self.cmd_rotation)*self.steering_mixgain, -100, 100)
 					
 	# function to calculate the distance the left and right wheel have moved since last encoder reset
 	# returns the distance traveled in inches

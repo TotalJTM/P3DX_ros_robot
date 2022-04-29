@@ -26,6 +26,16 @@ def generate_launch_description():
         ),
 		Node(
             package='p3dx_robot',
+            executable='basestation_sock',
+            name='basestation_to_robot_communications',
+            parameters=[{
+				"serverip":'192.168.1.5',
+        		"serverport":12345,
+        		"pub_freq":100,
+				}]
+        ),
+		Node(
+            package='p3dx_robot',
             executable='control',
             name='robot_control_node',
             parameters=[{

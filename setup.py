@@ -27,6 +27,7 @@ setup(
     entry_points={
         'console_scripts': [
             'robotserial = p3dx_robot.serial_comm_ros:main',
+            'basestation_sock = p3dx_robot.network_comm_ros:main',
             'control = p3dx_robot.p3dx_robot_controller:main'
         ],
     },

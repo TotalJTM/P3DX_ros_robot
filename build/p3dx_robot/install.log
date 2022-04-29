@@ -1,9 +1,13 @@
+/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/network_comm_ros.py
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/p3dx_peripherals.py
+/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/network.py
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/p3dx_robot_controller.py
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__init__.py
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/serial_comm.py
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/serial_comm_ros.py
+/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/network_comm_ros.cpython-38.pyc
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/p3dx_peripherals.cpython-38.pyc
+/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/network.cpython-38.pyc
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/p3dx_robot_controller.cpython-38.pyc
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/__init__.cpython-38.pyc
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot/__pycache__/serial_comm.cpython-38.pyc
@@ -19,5 +23,6 @@
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot-0.0.0-py3.8.egg-info/requires.txt
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot-0.0.0-py3.8.egg-info/PKG-INFO
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/python3.8/site-packages/p3dx_robot-0.0.0-py3.8.egg-info/zip-safe
+/root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/p3dx_robot/basestation_sock
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/p3dx_robot/control
 /root/rosplayground/ros2cws/src/p3dx_robot/install/p3dx_robot/lib/p3dx_robot/robotserial
